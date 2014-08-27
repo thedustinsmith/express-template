@@ -7,7 +7,7 @@ var db = require('../models'),
 		res.send('Welcome to the express template home page');
 	});
 
-	router.get('helloworld', function (req, res) {
+	router.get('/helloworld', function (req, res) {
 		res.send('Hello express template');
 	});
 
